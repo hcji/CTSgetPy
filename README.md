@@ -1,7 +1,6 @@
-# CTSgetPy
-.. image:: https://travis-ci.com/hcji/CTSgetPy.svg?branch=master
-    :target: https://travis-ci.org/hcji/CTSgetPy
+# CTSgetPy [![Build Status](https://travis-ci.com/hcji/CTSgetPy.svg?branch=master)](https://travis-ci.com/hcji/CTSgetPy)
 ***
+
 Python interface to the [Chemical Translation Service (CTS)](http://cts.fiehnlab.ucdavis.edu/)
 
 ## Depends:
