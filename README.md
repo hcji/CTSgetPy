@@ -2,6 +2,10 @@
 ***
 Python interface to the [Chemical Translation Service (CTS)](http://cts.fiehnlab.ucdavis.edu/)
 
+## Depends:
+    pip install requests
+	pip install tqdm
+
 ## Installation
 	pip install git+https://github.com/hcji/CTSgetPy@master
 	
