@@ -1,6 +1,3 @@
 # Installation
-re
-bs4
-json
 tqdm
 requests
