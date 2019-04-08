@@ -3,7 +3,7 @@
 Python interface to the [Chemical Translation Service (CTS)](http://cts.fiehnlab.ucdavis.edu/)
 
 ## Installation
-	pip install git+git://github.com/hcji/CTSgetPy@master
+	pip install git+https://github.com/hcji/CTSgetPy@master
 	
 ## Usage
 ### Import package
