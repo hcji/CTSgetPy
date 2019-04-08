@@ -52,7 +52,7 @@ def CTSget(source, targets, identifiers, top_only=True, timeout=60, server="http
     result = {}
     if type(targets) is str:
         result[targets] = CTS_translate_multi(source, targets, identifiers, top_only, timeout, server)
-    elif type(identifiers) is list:
+    elif type(targets) is list:
         for i in range(len(targets)):
             target = targets[i]
             print ('translating from ' + source + ' to ' + target)
