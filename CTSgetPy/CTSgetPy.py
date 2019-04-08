@@ -26,10 +26,13 @@ def CTS_translate(source, target, identifier, top_only=True, timeout=60, server=
     response = requests.get(url, timeout=timeout)
     soup = BeautifulSoup(response.content, "html.parser")
     output = json.loads(str(soup))
-    if top_only:
-        return output[0]['result'][0]
-    else:
-        return output[0]['result']
+    try:
+        if top_only:
+            return output[0]['result'][0]
+        else:
+            return output[0]['result']
+    except:
+        return ''
     
     
 def CTS_translate_multi(source, target, identifiers, top_only=True, timeout=60, server="http://cts.fiehnlab.ucdavis.edu/service/convert"):
