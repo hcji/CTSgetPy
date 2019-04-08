@@ -5,6 +5,7 @@ Python interface to the [Chemical Translation Service (CTS)](http://cts.fiehnlab
 ## Depends:
     pip install requests
 	pip install tqdm
+	pip install bs4
 
 ## Installation
 	pip install git+https://github.com/hcji/CTSgetPy@master

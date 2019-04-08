@@ -1,3 +1,4 @@
 # Installation
+bs4
 tqdm
 requests
