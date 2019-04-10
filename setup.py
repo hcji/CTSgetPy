@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(name='CTSgetPy',
-      version='0.0.1',
+      version='0.0.2',
       description="Python interface to Chemical Translation Service (CTS)",
       license='MIT',
       author='Hongchao Ji',
@@ -13,5 +13,6 @@ setup(name='CTSgetPy',
 	  classifiers=[
 	  'Development Status :: 4 - Beta',
 	  'Programming Language :: Python :: 3.6',
+	  'Programming Language :: Python :: 3.7'
 	  ]
      )
