@@ -12,7 +12,6 @@ setup(name='CTSgetPy',
 	  install_requires=['requests', 'tqdm', 'bs4'],
 	  classifiers=[
 	  'Development Status :: 4 - Beta',
-	  'Topic :: Software Development :: Chemistry',
 	  'Programming Language :: Python :: 3.6',
 	  ]
      )
