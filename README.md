@@ -9,6 +9,8 @@ Python interface to the [Chemical Translation Service (CTS)](http://cts.fiehnlab
 	pip install bs4
 
 ## Installation
+	pip install CTSgetPy
+or  
 	pip install git+https://github.com/hcji/CTSgetPy@master
 	
 ## Usage
