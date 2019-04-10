@@ -9,7 +9,7 @@ setup(name='CTSgetPy',
       url='https://github.com/hcji/CTSgetPy',
 	  long_description_content_type="text/markdown",
       packages=find_packages(),
-	  install_requires=['requests'，'tqdm', 'bs4'],
+	  install_requires=['requests', 'tqdm', 'bs4'],
 	  classifiers=[
 	  'Development Status :: 4 - Beta',
 	  'Topic :: Software Development :: Chemistry'
