@@ -1,7 +1,7 @@
 # CTSgetPy [![Build Status](https://travis-ci.com/hcji/CTSgetPy.svg?branch=master)](https://travis-ci.com/hcji/CTSgetPy)
 ***
 
-Python interface to the [Chemical Translation Service (CTS)](http://cts.fiehnlab.ucdavis.edu/)
+Python interface to the [Chemical Translation Service (CTS)](http://cts.fiehnlab.ucdavis.edu/), which is a Chemical Translation Service that performs batch conversions of the most common compound identifiers, including CAS, CHEBI, compound formulas, Human Metabolome Database HMDB, InChI, InChIKey, IUPAC name, KEGG, LipidMaps, PubChem CID+SID, SMILES and chemical synonym names. 
 
 ## Depends:
     pip install requests
